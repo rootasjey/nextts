@@ -1,5 +1,6 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
+import Link from 'next/link'
 import Layout from '../components/layout'
 import { Box, Button, List, Typography } from '@material-ui/core'
 import { css, jsx } from '@emotion/react'
@@ -56,9 +57,11 @@ export default function IndexPage(): JSX.Element {
             <Typography variant="h1">
               <b>Launches</b>
             </Typography>
-            <Button variant="contained" color="secondary">
-              More launches →
-            </Button>
+            <Link href="/launches">
+              <Button variant="contained" color="secondary">
+                More launches →
+              </Button>
+            </Link>
           </Box>
 
           <Box>
