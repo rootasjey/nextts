@@ -39,7 +39,9 @@ export default function TopBar(): JSX.Element {
             <div>
               <Button className={classes.button}>Launches</Button>
               <Button className={classes.button}>About</Button>
-              <Button className={classes.button}>GitHub</Button>
+              <Button className={classes.button} href="https://github.com/rootasjey/nextts">
+                GitHub
+              </Button>
             </div>
             {/* <Typography component="span">Launches</Typography> */}
           </div>
