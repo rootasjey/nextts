@@ -6,16 +6,10 @@ import { css, jsx } from '@emotion/react'
 
 // A style sheet
 const useStyles = makeStyles({
-  root: {}, // a style rule
-  label: {}, // a nested style rule
   button: {
     marginRight: '10px',
   },
 })
-
-// interface Props {
-//   styles: string
-// }
 
 export default function TopBar(): JSX.Element {
   const classes = useStyles()
