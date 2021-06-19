@@ -9,7 +9,7 @@ import LaunchCard from '../components/launch-card'
 
 const GET_LAUNCHES = gql`
   query GetPastLaunches($limit: Int!) {
-    launchesPast(limit: $limit) {
+    launchesPast(limit: $limit, order: "desc", sort: "launch_date_local") {
       id
       mission_name
       launch_date_local
@@ -48,6 +48,7 @@ export default function IndexPage(): JSX.Element {
             display: flex;
             align-items: center;
             padding-top: 60px;
+            padding-bottom: 100px;
           `}
         >
           <Box padding={10}>
