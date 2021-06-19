@@ -23,22 +23,29 @@ export default function TopBar(): JSX.Element {
               justify-content: space-between;
             `}
           >
-            <div
-              css={css`
-                display: flex;
-              `}
-            >
-              <Box component="span" pr={1}>
-                <UilRocket size="20" color="#4834d4" />
-              </Box>
-              <Typography component="span">
-                <b>Rocket Fire</b>
-              </Typography>
-            </div>
+            <Button href="/">
+              <div
+                css={css`
+                  display: flex;
+                  align-items: flex-start;
+                `}
+              >
+                <Box component="span" pr={1}>
+                  <UilRocket size="20" color="#4834d4" />
+                </Box>
+                <Typography component="span">
+                  <b>Rocket Fire</b>
+                </Typography>
+              </div>
+            </Button>
 
             <div>
-              <Button className={classes.button}>Launches</Button>
-              <Button className={classes.button}>About</Button>
+              <Button className={classes.button} href="/launches">
+                Launches
+              </Button>
+              <Button className={classes.button} href="#about">
+                About
+              </Button>
               <Button className={classes.button} href="https://github.com/rootasjey/nextts">
                 GitHub
               </Button>
