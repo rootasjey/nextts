@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 
 const GET_LAUNCHES = gql`
   query GetPastLaunches($limit: Int!) {
-    launchesPast(limit: $limit) {
+    launchesPast(limit: $limit, order: "desc", sort: "launch_date_local") {
       id
       mission_name
       launch_date_local
