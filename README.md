@@ -1,6 +1,18 @@
-# Next.js with TypeScript and ESLint
+# 🚀 rocket fire
 
-Starter code for a clean Next.js + TypeScript + ESLint project.
+Demo project using [next.js](https://nextjs.org) & [SpaceX unofficial GraphQL API](https://api.spacex.land/graphql).
+
+<img src="screenshots/home.png" width="600" alt="home page">
+<img src="screenshots/details.png" width="600" alt="details page">
+
+### Tech stack
+
+* [next.js](https://nextjs.org)
+* [react](https://reactjs.org)
+* [apollo](https://apollographql.org)
+* [unicons](https://iconscout.com)
+* [material-ui](https://material-ui.com)
+* [emotion](https://emotion.sh)
 
 ## Get started
 
