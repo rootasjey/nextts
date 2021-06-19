@@ -6,6 +6,7 @@ import { Box, Button, List, Typography } from '@material-ui/core'
 import { css, jsx } from '@emotion/react'
 import { gql, useQuery } from '@apollo/client'
 import LaunchCard from '../components/launch-card'
+import About from '../components/about'
 
 const GET_LAUNCHES = gql`
   query GetPastLaunches($limit: Int!) {
@@ -73,6 +74,7 @@ export default function IndexPage(): JSX.Element {
             </List>
           </Box>
         </div>
+        <About />
       </main>
     </Layout>
   )
