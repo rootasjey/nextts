@@ -64,7 +64,7 @@ export default function Launches(): JSX.Element {
             <Button onClick={router.back}>←Back</Button>
           </div>
           <Typography variant="h1">
-            <b>Lastest</b>
+            <b>Latest</b>
           </Typography>
           <Typography variant="h1">
             <b>Launches</b>

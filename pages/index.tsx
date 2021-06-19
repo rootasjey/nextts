@@ -54,7 +54,7 @@ export default function IndexPage(): JSX.Element {
         >
           <Box padding={10}>
             <Typography variant="h1">
-              <b>Lastest</b>
+              <b>Latest</b>
             </Typography>
             <Typography variant="h1">
               <b>Launches</b>
